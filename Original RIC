@@ -1,0 +1,3 @@
+select dDateEnd, custid, funddt, amtfin
+from DW_AccountingTreasuryMart.dbo.PWC_RIC_ALL
+where dDateEnd = '01/31/2021'
